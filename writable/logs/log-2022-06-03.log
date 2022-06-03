@@ -1,0 +1,78 @@
+CRITICAL - 2022-06-03 00:02:31 --> Array to string conversion
+#0 C:\laragon\www\CT_prueba\app\Views\admin\actualizarUsuario.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\CT_prueba\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CT_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CT_prueba\system\Common.php(1089): CodeIgniter\View\View->render('admin/actualiza...', Array, true)
+#4 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(149): view('admin/actualiza...', Array)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizar()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 00:03:18 --> Array to string conversion
+#0 C:\laragon\www\CT_prueba\app\Views\admin\actualizarUsuario.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\CT_prueba\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CT_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CT_prueba\system\Common.php(1089): CodeIgniter\View\View->render('admin/actualiza...', Array, true)
+#4 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(149): view('admin/actualiza...', Array)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizar()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 00:04:03 --> Array to string conversion
+#0 C:\laragon\www\CT_prueba\app\Views\admin\actualizarUsuario.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\CT_prueba\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CT_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CT_prueba\system\Common.php(1089): CodeIgniter\View\View->render('admin/actualiza...', Array, true)
+#4 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(149): view('admin/actualiza...', Array)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizar()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 00:18:08 --> Call to protected method CodeIgniter\Validation\Validation::loadRuleSets() from context 'App\Controllers\Admin\Admin'
+#0 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#1 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#2 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-03 01:18:14 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\CT_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-03 01:18:27 --> Trying to get property 'nombre' of non-object
+#0 C:\laragon\www\CT_prueba\app\Views\admin\perfil.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\CT_prueba\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CT_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CT_prueba\system\Common.php(1089): CodeIgniter\View\View->render('admin/perfil', Array, true)
+#4 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(49): view('admin/perfil', Array)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->miPerfil()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 01:19:09 --> Trying to get property 'nombre' of non-object
+#0 C:\laragon\www\CT_prueba\app\Views\admin\perfil.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\CT_prueba\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CT_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CT_prueba\system\Common.php(1089): CodeIgniter\View\View->render('admin/perfil', Array, true)
+#4 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(50): view('admin/perfil', Array)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->miPerfil()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 12:19:17 --> Undefined variable: estado
+#0 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 163, Array)
+#1 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->updatePerfil()
+#2 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

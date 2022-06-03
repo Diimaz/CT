@@ -1,0 +1,207 @@
+CRITICAL - 2022-06-02 12:40:13 --> Undefined variable: mostar
+#0 C:\laragon\www\ct_prueba\app\Views\admin\actualizarUsuario.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 91, Array)
+#1 C:\laragon\www\ct_prueba\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ct_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ct_prueba\system\Common.php(1089): CodeIgniter\View\View->render('admin/actualiza...', Array, true)
+#4 C:\laragon\www\ct_prueba\app\Controllers\Admin\Admin.php(142): view('admin/actualiza...', Array)
+#5 C:\laragon\www\ct_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizar()
+#6 C:\laragon\www\ct_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\laragon\www\ct_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ct_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 14:27:57 --> Undefined index: id
+#0 C:\laragon\www\ct_prueba\app\Controllers\Admin\Admin.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 129, Array)
+#1 C:\laragon\www\ct_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizar()
+#2 C:\laragon\www\ct_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\laragon\www\ct_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ct_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 14:32:32 --> Undefined index: id
+#0 C:\laragon\www\ct_prueba\app\Controllers\Admin\Admin.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 129, Array)
+#1 C:\laragon\www\ct_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizar()
+#2 C:\laragon\www\ct_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\laragon\www\ct_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ct_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 14:35:15 --> Undefined index: id
+#0 C:\laragon\www\ct_prueba\app\Controllers\Admin\Admin.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 129, Array)
+#1 C:\laragon\www\ct_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizar()
+#2 C:\laragon\www\ct_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\laragon\www\ct_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ct_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 14:35:34 --> Undefined index: id
+#0 C:\laragon\www\ct_prueba\app\Controllers\Admin\Admin.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 129, Array)
+#1 C:\laragon\www\ct_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizar()
+#2 C:\laragon\www\ct_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\laragon\www\ct_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ct_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 14:37:32 --> Undefined variable: mostrar
+#0 C:\laragon\www\ct_prueba\app\Views\admin\actualizarUsuario.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\ct_prueba\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ct_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ct_prueba\system\Common.php(1089): CodeIgniter\View\View->render('admin/actualiza...', Array, true)
+#4 C:\laragon\www\ct_prueba\app\Controllers\Admin\Admin.php(232): view('admin/actualiza...')
+#5 C:\laragon\www\ct_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#6 C:\laragon\www\ct_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\laragon\www\ct_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ct_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 14:38:19 --> Undefined variable: usuarios
+#0 C:\laragon\www\ct_prueba\app\Views\admin\buscarUsuario.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 35, Array)
+#1 C:\laragon\www\ct_prueba\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ct_prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ct_prueba\system\Common.php(1089): CodeIgniter\View\View->render('admin/buscarUsu...', Array, true)
+#4 C:\laragon\www\ct_prueba\app\Controllers\Admin\Admin.php(232): view('admin/buscarUsu...')
+#5 C:\laragon\www\ct_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#6 C:\laragon\www\ct_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\laragon\www\ct_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ct_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 21:37:31 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-02 21:37:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\laragon\www\CT_prueba\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\CT_prueba\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\CT_prueba\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\CT_prueba\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\laragon\www\CT_prueba\app\Models\UsuarioModel.php(51): CodeIgniter\BaseModel->first()
+#5 C:\laragon\www\CT_prueba\app\Filters\Roles.php(23): App\Models\UsuarioModel->buscarUsuario('idUsuario', '17')
+#6 C:\laragon\www\CT_prueba\system\Filters\Filters.php(173): App\Filters\Roles->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#7 C:\laragon\www\CT_prueba\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/buscar-us...', 'before')
+#8 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-02 23:27:35 --> Trying to get property 'usuario' of non-object
+#0 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 180, Array)
+#1 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#2 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 23:28:53 --> Trying to get property 'usuario' of non-object
+#0 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 180, Array)
+#1 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#2 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 23:29:35 --> Undefined index: usuario
+#0 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 180, Array)
+#1 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#2 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 23:29:50 --> Cannot use object of type App\Entities\Usuario as array
+#0 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#1 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#2 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 23:33:29 --> Undefined variable: datosUsuario
+#0 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 190, Array)
+#1 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#2 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-02 23:34:53 --> Duplicate entry 'dimas@gmail.com' for key 'email'
+CRITICAL - 2022-06-02 23:34:54 --> Duplicate entry 'dimas@gmail.com' for key 'email'
+#0 C:\laragon\www\CT_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_usu...', 0)
+#1 C:\laragon\www\CT_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_usu...')
+#2 C:\laragon\www\CT_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_usu...')
+#3 C:\laragon\www\CT_prueba\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_usu...', Array, false)
+#4 C:\laragon\www\CT_prueba\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\CT_prueba\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\laragon\www\CT_prueba\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\laragon\www\CT_prueba\system\BaseModel.php(656): CodeIgniter\Model->update('20', Array)
+#8 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(303): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#10 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#11 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-02 23:41:24 --> Duplicate entry 'dimas@gmail.com' for key 'email'
+CRITICAL - 2022-06-02 23:41:24 --> Duplicate entry 'dimas@gmail.com' for key 'email'
+#0 C:\laragon\www\CT_prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_usu...', 0)
+#1 C:\laragon\www\CT_prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_usu...')
+#2 C:\laragon\www\CT_prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_usu...')
+#3 C:\laragon\www\CT_prueba\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_usu...', Array, false)
+#4 C:\laragon\www\CT_prueba\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\CT_prueba\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\laragon\www\CT_prueba\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\laragon\www\CT_prueba\system\BaseModel.php(656): CodeIgniter\Model->update('20', Array)
+#8 C:\laragon\www\CT_prueba\app\Controllers\Admin\Admin.php(303): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#10 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#11 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-02 23:42:39 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\CT_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 23:42:43 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\CT_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 23:47:45 --> Call to undefined method App\Controllers\Admin\Admin::validation()
+#0 C:\laragon\www\CT_prueba\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->actualizarUsuario()
+#1 C:\laragon\www\CT_prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#2 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 23:50:52 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\CT_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 23:51:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\CT_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 23:51:49 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\CT_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 23:55:56 --> syntax error, unexpected 'if' (T_IF), expecting ']'
+#0 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CT_prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\CT_prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\CT_prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\CT_prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CT_prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
