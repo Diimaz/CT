@@ -1,7 +1,7 @@
 <?=$this->extend('admin/main')?>
 
 <?=$this->section('title')?>
-Buscar usuario
+Buscar CT
 <?=$this->endSection()?>
 <?=$this->section('css')?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css
@@ -16,7 +16,7 @@ Buscar usuario
 <?=$this->endSection()?>
 
 <?=$this->section('content')?>
-<?php $configs = config('CT'); ?>
+<?php $modelUsuario = model('UsuarioModel'); ?>
 <section class="container"><br><br>
     <?php if(session('msg')):?>
     <article class="message is-<?=session('msg.type')?>">
@@ -25,15 +25,15 @@ Buscar usuario
         </div>
     </article>
     <?php endif; ?>
-    <h5>Empleados</h5>
+    <h5>Centro de tecnología</h5>
     <div class="field is-grouped has-text-centered">
         <p class="control">
-            <a class="button is-link has-text-black is-boxed" href="<?=base_url(route_to('search'))?>?estado=1">
+            <a class="button is-link has-text-black is-boxed" href="<?=base_url(route_to('searchCt'))?>?estado=1">
                 <span class="has-text-white">Avtivos</span>
             </a>
         </p>
         <p class="control">
-            <a class="button is-link has-text-black is-boxed" href="<?=base_url(route_to('search'))?>?estado=0">
+            <a class="button is-link has-text-black is-boxed" href="<?=base_url(route_to('searchCt'))?>?estado=0">
                 <span class="has-text-white">Inactivos</span>
             </a>
         </p>
@@ -41,65 +41,39 @@ Buscar usuario
     <table id="example" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Usuario</th>
-                <th>Email</th>
-                <th>Dui</th>
-                <th>Telefono</th>
-                <th>Rol</th>
+                <th>Nombre del CT</th>
+                <th>Encargado</th>
                 <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($usuarios as $key): ?>
-            <?php if($key->idUsuario != session('idUsuario')): ?>
+            <?php foreach ($cts as $key): ?>
             <tr>
                 <td>
-                    <?= $key->nombre ?>
+                    <?= $key->nombreCt ?>
                 </td>
                 <td>
-                    <?= $key->apellido ?>
+                    <?php $usuario = $modelUsuario->find($key->idUsuario) ?>
+                    <?=  $usuario->usuario ?>
                 </td>
                 <td>
-                    <?= $key->usuario?>
-                </td>
-                <td>
-                    <?= $key->email?>
-                </td>
-                <td>
-                    <?= $key->dui?>
-                </td>
-                <td>
-                    <?= $key->telefono?>
-                </td>
-                <td>
-                    <?php if($key->idRol == 1): ?>
-                    <?= $configs->defaultRolAdmin ?>
-                    <?php else: ?>
-                    <?= $configs->defaultRolUsuario ?>
-                    <?php endif; ?>
-                </td>
-                <td>
-                    <a
-                        href="<?=base_url(route_to('update'))?>?id=<?= password_hash($key->idUsuario,PASSWORD_DEFAULT)?>">
+                    <a href="<?=base_url(route_to('updateCt'))?>?id=<?= password_hash($key->idCt,PASSWORD_DEFAULT)?>">
                         <span class="icon has-text-warning"><i class="fas fa-sync" aria-hidden="true"></i></span>
                     </a>
                     <?php if($key->estado == 1): ?>
                     <a
-                        href="<?=base_url(route_to('delete'))?>?estado=0&id=<?= password_hash($key->idUsuario,PASSWORD_DEFAULT)?>">
+                        href="<?=base_url(route_to('deleteCt'))?>?estado=0&id=<?= password_hash($key->idCt,PASSWORD_DEFAULT)?>">
                         <span class="icon has-text-danger"><i class="fas fa-eraser" aria-hidden="true"></i></span>
                     </a>
                     <?php else: ?>
                     <a
-                        href="<?=base_url(route_to('back'))?>?estado=1&id=<?= password_hash($key->idUsuario,PASSWORD_DEFAULT)?>">
+                        href="<?=base_url(route_to('backCt'))?>?estado=1&id=<?= password_hash($key->idCt,PASSWORD_DEFAULT)?>">
                         <span class="icon has-text-success"><i class="fas fa-file-upload" aria-hidden="true"></i></span>
                     </a>
                     <?php endif; ?>
 
                 </td>
             </tr>
-            <?php endif; ?>
             <?php endforeach; ?>
 
         </tbody>

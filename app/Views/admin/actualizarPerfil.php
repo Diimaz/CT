@@ -1,7 +1,7 @@
 <?=$this->extend('admin/main')?>
 
 <?=$this->section('title')?>
-Actualizar
+Actualizar perfil
 <?=$this->endSection()?>
 <?=$this->section('css')?>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
